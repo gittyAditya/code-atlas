@@ -1,6 +1,6 @@
 package com.aditya.leetcode.binary_tree;
 
-public class InvertBinaryTree0226 {
+public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null)
             return root;

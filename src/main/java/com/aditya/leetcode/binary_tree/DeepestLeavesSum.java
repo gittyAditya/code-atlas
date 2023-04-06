@@ -18,7 +18,7 @@ import java.util.Queue;
 }
 
 
-public class DeepestLeavesSum1302 {
+public class DeepestLeavesSum {
         public int deepestLeavesSum(TreeNode root) {
             Queue<TreeNode> q = new LinkedList<TreeNode>();
             int ans = 0;

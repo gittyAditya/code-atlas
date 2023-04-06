@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class DeepestLeavesSum1302Test {
+public class DeepestLeavesSumTest {
 
-    private DeepestLeavesSum1302 deepestLeavesSum;
+    private DeepestLeavesSum deepestLeavesSum;
 
     @BeforeEach
     public void setUp() {
-        deepestLeavesSum = new DeepestLeavesSum1302();
+        deepestLeavesSum = new DeepestLeavesSum();
     }
 
     @Test

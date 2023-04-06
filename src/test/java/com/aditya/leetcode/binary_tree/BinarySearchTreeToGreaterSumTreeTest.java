@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class BinarySearchTreeToGreaterSumTree1038Test {
+public class BinarySearchTreeToGreaterSumTreeTest {
 
-    private BinarySearchTreeToGreaterSumTree1038 bstToGst;
+    private BinarySearchTreeToGreaterSumTree bstToGst;
 
     @BeforeEach
     public void setUp() {
-        bstToGst = new BinarySearchTreeToGreaterSumTree1038();
+        bstToGst = new BinarySearchTreeToGreaterSumTree();
     }
 
     @Test

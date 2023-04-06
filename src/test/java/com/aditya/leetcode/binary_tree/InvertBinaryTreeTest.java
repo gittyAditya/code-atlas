@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class InvertBinaryTree0226Test {
+public class InvertBinaryTreeTest {
 
-    private InvertBinaryTree0226 invertTree;
+    private InvertBinaryTree invertTree;
 
     @BeforeEach
     public void setUp() {
-        invertTree = new InvertBinaryTree0226();
+        invertTree = new InvertBinaryTree();
     }
 
     @Test

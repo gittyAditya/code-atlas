@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/binary_tree/BinarySearchTreeToGreaterSumTree1038.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/binary_tree/DeepestLeavesSum1302.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/binary_tree/InvertBinaryTree0226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/binary_tree/BinarySearchTreeToGreaterSumTree1038Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/binary_tree/DeepestLeavesSum1302Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/binary_tree/InvertBinaryTree0226Test.java" afterDir="false" />
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +81,23 @@
       <workItem from="1680733637111" duration="4842000" />
       <workItem from="1680738570308" duration="5000" />
       <workItem from="1680738624052" duration="6325000" />
-      <workItem from="1680781301479" duration="426000" />
+      <workItem from="1680781301479" duration="1245000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1680781970883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680781970883</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1680782115183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680782115183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

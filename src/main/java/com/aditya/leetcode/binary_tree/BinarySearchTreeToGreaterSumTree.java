@@ -1,6 +1,6 @@
 package com.aditya.leetcode.binary_tree;
 
-public class BinarySearchTreeToGreaterSumTree1038 {
+public class BinarySearchTreeToGreaterSumTree {
     int sum = 0;
     public TreeNode bstToGst(TreeNode root) {
         if(root == null)
