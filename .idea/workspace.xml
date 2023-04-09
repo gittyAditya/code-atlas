@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/linked_list/MergeNodesInBetweenZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/linked_list/MergeNodesInBetweenZerosTest.java" afterDir="false" />
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add Binary Tree Solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/greedy/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/greedy/PartitioningIntoMinimumNumberOfDeciBinaryNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,10 @@
       <workItem from="1680781301479" duration="1245000" />
       <workItem from="1680783980086" duration="302000" />
       <workItem from="1680784286060" duration="97000" />
-      <workItem from="1680861012779" duration="4546000" />
+      <workItem from="1680861012779" duration="6820000" />
+      <workItem from="1680909855992" duration="3850000" />
+      <workItem from="1680977758899" duration="1000" />
+      <workItem from="1681038567952" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1680781970883</created>
@@ -116,7 +119,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680784340027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add LinkedList solution">
+      <created>1680878071160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680878071160</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add LinkedList solution">
+      <created>1680878367220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680878367220</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add Binary Tree Solution">
+      <created>1680913645770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680913645770</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add LinkedList solution" />
+    <MESSAGE value="Add Binary Tree Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Binary Tree Solution" />
   </component>
 </project>
