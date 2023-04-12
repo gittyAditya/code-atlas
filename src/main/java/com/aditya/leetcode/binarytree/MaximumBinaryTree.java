@@ -1,4 +1,4 @@
-package com.aditya.leetcode.binary_tree;
+package com.aditya.leetcode.binarytree;
 
 public class MaximumBinaryTree {
 
@@ -15,11 +15,11 @@ public class MaximumBinaryTree {
                     maxIndex = i;
                 }
             }
-            TreeNode root = new TreeNode(max);
+            TreeNode root = new TreeNode().setVal(max);
             if(start != maxIndex)       // condition (1)
-                root.left = buildSubtree(start, maxIndex-1, nums);
+                root.setLeft(buildSubtree(start, maxIndex-1, nums));
             if(end != maxIndex)         // condition (2)
-                root.right = buildSubtree(maxIndex+1, end, nums);
+                root.setRight(buildSubtree(maxIndex+1, end, nums));
             return root;
         }
 
