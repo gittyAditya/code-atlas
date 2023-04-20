@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add PathSource2Target">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/graphs/MinimumNumberOfVerticesToReachAllNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add Vertices2ReachNodes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MinimumNumberOfVerticesToReachAllNodesTest">
+  <component name="RunManager" selected="JUnit.MaximumDepthOfBinaryTreeTest">
     <configuration name="AllPathsFromSourceToTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
@@ -87,16 +84,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeNodesInBetweenZerosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumDepthOfBinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aditya.leetcode.linkedlist.*" />
+          <option name="PATTERN" value="com.aditya.leetcode.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aditya.leetcode.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.linkedlist.MergeNodesInBetweenZerosTest" />
+      <option name="PACKAGE_NAME" value="com.aditya.leetcode.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.binarytree.MaximumDepthOfBinaryTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumDepthOfBinaryTreeTest" />
         <item itemvalue="JUnit.MinimumNumberOfVerticesToReachAllNodesTest" />
         <item itemvalue="JUnit.AllPathsFromSourceToTargetTest" />
         <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListTest" />
         <item itemvalue="JUnit.MinDistanceBetween2EqualElementsTest" />
-        <item itemvalue="JUnit.MergeNodesInBetweenZerosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +178,7 @@
       <workItem from="1681721821012" duration="4725000" />
       <workItem from="1681970367207" duration="2221000" />
       <workItem from="1681978479853" duration="1438000" />
-      <workItem from="1681980965091" duration="4672000" />
+      <workItem from="1681980965091" duration="4976000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1680781970883</created>
@@ -274,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681997768674</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add Vertices2ReachNodes">
+      <created>1682000149158</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682000149158</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +305,7 @@
     <MESSAGE value="Add Min Dist b/w 2 eq elts" />
     <MESSAGE value="Add FlatBtreeToLL" />
     <MESSAGE value="Add PathSource2Target" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PathSource2Target" />
+    <MESSAGE value="Add Vertices2ReachNodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Vertices2ReachNodes" />
   </component>
 </project>
