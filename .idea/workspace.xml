@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add Min Dist b/w 2 eq elts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/binarytree/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/binarytree/FlattenBinaryTreeToLinkedListTest.java" afterDir="false" />
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add FlatBtreeToLL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/graphs/AllPathsFromSourceToTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/graphs/AllPathsFromSourceToTargetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FlattenBinaryTreeToLinkedListTest">
+  <component name="RunManager" selected="JUnit.AllPathsFromSourceToTargetTest">
+    <configuration name="AllPathsFromSourceToTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-atlas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aditya.leetcode.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aditya.leetcode.graphs" />
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.AllPathsFromSourceToTargetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlattenBinaryTreeToLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
@@ -118,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllPathsFromSourceToTargetTest" />
         <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListTest" />
         <item itemvalue="JUnit.MinDistanceBetween2EqualElementsTest" />
         <item itemvalue="JUnit.MergeNodesInBetweenZerosTest" />
@@ -147,7 +163,10 @@
       <workItem from="1681396169223" duration="3000" />
       <workItem from="1681648577299" duration="6004000" />
       <workItem from="1681704271562" duration="723000" />
-      <workItem from="1681721821012" duration="3510000" />
+      <workItem from="1681721821012" duration="4725000" />
+      <workItem from="1681970367207" duration="2221000" />
+      <workItem from="1681978479853" duration="1438000" />
+      <workItem from="1681980965091" duration="3212000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1680781970883</created>
@@ -226,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681724210648</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add FlatBtreeToLL">
+      <created>1681735074141</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681735074141</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +277,7 @@
     <MESSAGE value="Add CloneGraph solution" />
     <MESSAGE value="write code like SE" />
     <MESSAGE value="Add Min Dist b/w 2 eq elts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Min Dist b/w 2 eq elts" />
+    <MESSAGE value="Add FlatBtreeToLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FlatBtreeToLL" />
   </component>
 </project>
