@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add Vertices2ReachNodes" />
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add BtreeMaxDepth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/graphs/KeysAndRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/graphs/KeysAndRoomsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +57,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MaximumDepthOfBinaryTreeTest">
+  <component name="RunManager" selected="JUnit.KeysAndRoomsTest">
     <configuration name="AllPathsFromSourceToTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
@@ -69,17 +73,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlattenBinaryTreeToLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysAndRoomsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aditya.leetcode.binarytree.*" />
+          <option name="PATTERN" value="com.aditya.leetcode.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aditya.leetcode.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.binarytree.FlattenBinaryTreeToLinkedListTest" />
+      <option name="PACKAGE_NAME" value="com.aditya.leetcode.graphs" />
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.KeysAndRoomsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeysAndRoomsTest.testCannotVisitAllRooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-atlas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aditya.leetcode.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aditya.leetcode.graphs" />
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.KeysAndRoomsTest" />
+      <option name="METHOD_NAME" value="testCannotVisitAllRooms" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,21 +114,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.aditya.leetcode.binarytree" />
       <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.binarytree.MaximumDepthOfBinaryTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinDistanceBetween2EqualElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-atlas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aditya.leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aditya.leetcode.array" />
-      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.array.MinDistanceBetween2EqualElementsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KeysAndRoomsTest" />
+        <item itemvalue="JUnit.KeysAndRoomsTest.testCannotVisitAllRooms" />
         <item itemvalue="JUnit.MaximumDepthOfBinaryTreeTest" />
         <item itemvalue="JUnit.MinimumNumberOfVerticesToReachAllNodesTest" />
         <item itemvalue="JUnit.AllPathsFromSourceToTargetTest" />
-        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListTest" />
-        <item itemvalue="JUnit.MinDistanceBetween2EqualElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +184,8 @@
       <workItem from="1681970367207" duration="2221000" />
       <workItem from="1681978479853" duration="1438000" />
       <workItem from="1681980965091" duration="4976000" />
+      <workItem from="1682029569006" duration="890000" />
+      <workItem from="1682084965259" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1680781970883</created>
@@ -278,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682000149158</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add BtreeMaxDepth">
+      <created>1682029848076</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682029848076</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +320,7 @@
     <MESSAGE value="Add FlatBtreeToLL" />
     <MESSAGE value="Add PathSource2Target" />
     <MESSAGE value="Add Vertices2ReachNodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Vertices2ReachNodes" />
+    <MESSAGE value="Add BtreeMaxDepth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BtreeMaxDepth" />
   </component>
 </project>
