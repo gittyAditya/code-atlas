@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add KeyAndRooms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/graphs/NumberOfProvinces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Solve No.OfProvinces" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.NumberOfProvincesTest">
+  <component name="RunManager" selected="JUnit.NumberOfIslandsTest">
     <configuration name="KeysAndRoomsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
@@ -103,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumNumberOfVerticesToReachAllNodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfIslandsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +109,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.aditya.leetcode.graphs" />
-      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.MinimumNumberOfVerticesToReachAllNodesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.NumberOfIslandsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberOfIslandsTest" />
         <item itemvalue="JUnit.NumberOfProvincesTest" />
         <item itemvalue="JUnit.KeysAndRoomsTest" />
         <item itemvalue="JUnit.KeysAndRoomsTest.testCannotVisitAllRooms" />
         <item itemvalue="JUnit.MaximumDepthOfBinaryTreeTest" />
-        <item itemvalue="JUnit.MinimumNumberOfVerticesToReachAllNodesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +182,7 @@
       <workItem from="1681980965091" duration="4976000" />
       <workItem from="1682029569006" duration="890000" />
       <workItem from="1682084965259" duration="1723000" />
-      <workItem from="1682264444727" duration="1628000" />
+      <workItem from="1682264444727" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1680781970883</created>
@@ -299,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682086090249</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Solve No.OfProvinces">
+      <created>1682321544448</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682321544448</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +333,7 @@
     <MESSAGE value="Add Vertices2ReachNodes" />
     <MESSAGE value="Add BtreeMaxDepth" />
     <MESSAGE value="Add KeyAndRooms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add KeyAndRooms" />
+    <MESSAGE value="Solve No.OfProvinces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve No.OfProvinces" />
   </component>
 </project>
