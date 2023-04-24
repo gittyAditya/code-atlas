@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add BtreeMaxDepth">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/graphs/KeysAndRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aditya/leetcode/graphs/KeysAndRoomsTest.java" afterDir="false" />
+    <list default="true" id="5b278534-b766-4bcc-abed-bfb354c71ddf" name="Changes" comment="Add KeyAndRooms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aditya/leetcode/graphs/NumberOfProvinces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,22 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.KeysAndRoomsTest">
-    <configuration name="AllPathsFromSourceToTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-atlas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aditya.leetcode.graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aditya.leetcode.graphs" />
-      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.AllPathsFromSourceToTargetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.NumberOfProvincesTest">
     <configuration name="KeysAndRoomsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-atlas" />
       <extension name="coverage">
@@ -134,6 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberOfProvincesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-atlas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aditya.leetcode.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aditya.leetcode.graphs" />
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode.graphs.NumberOfProvincesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="codeAtlas" />
       <method v="2">
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberOfProvincesTest" />
         <item itemvalue="JUnit.KeysAndRoomsTest" />
         <item itemvalue="JUnit.KeysAndRoomsTest.testCannotVisitAllRooms" />
         <item itemvalue="JUnit.MaximumDepthOfBinaryTreeTest" />
         <item itemvalue="JUnit.MinimumNumberOfVerticesToReachAllNodesTest" />
-        <item itemvalue="JUnit.AllPathsFromSourceToTargetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +184,8 @@
       <workItem from="1681978479853" duration="1438000" />
       <workItem from="1681980965091" duration="4976000" />
       <workItem from="1682029569006" duration="890000" />
-      <workItem from="1682084965259" duration="1083000" />
+      <workItem from="1682084965259" duration="1723000" />
+      <workItem from="1682264444727" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1680781970883</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682029848076</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add KeyAndRooms">
+      <created>1682086090249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682086090249</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +328,7 @@
     <MESSAGE value="Add PathSource2Target" />
     <MESSAGE value="Add Vertices2ReachNodes" />
     <MESSAGE value="Add BtreeMaxDepth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BtreeMaxDepth" />
+    <MESSAGE value="Add KeyAndRooms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add KeyAndRooms" />
   </component>
 </project>
